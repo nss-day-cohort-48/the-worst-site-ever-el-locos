@@ -6,3 +6,21 @@
 .container{
     flex-direction: row-reverse;
 }
+
+body{
+    
+    background-image: url(https://media0.giphy.com/media/mc19PEWvaclAk/giphy.gif?cid=ecf05e47ul250tqzi1f7hvl4q7twzpv1q2m95rf4sh1wis0u&rid=giphy.gif&ct=g);
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.suggestions{
+    flex-flow: row;
+    text-align: left;
+}
+
+.resources{
+    text-align: right;
+}
