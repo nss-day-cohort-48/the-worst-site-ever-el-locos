@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+html {
+  background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif);
+  background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+
+}
+/* NAVBAR STUFF */
+.header {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.logo {
+  font-size: 2em;
+  opacity: 0;
+}
+.links {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+  opacity: .15;
+}
+.link:hover {
+  color:rebeccapurple;
+  opacity: 10;
+}
+#linkTwo {
+  padding-left: 1em;
+}
+#linkThree {
+  padding-left: 1em;
+}
+
+
+
+
+/* Footer Stuff */
+.footer {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  width: 90%;
+}
+.footer-text {
+  display: flex;
+  justify-content: space-around;
+}
