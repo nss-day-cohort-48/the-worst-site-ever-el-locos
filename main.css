@@ -4,13 +4,17 @@
   border: border-box;
 }
 html {
-  background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif);
+  /* background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif); */
   background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
-
-
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 1vh;
 }
 /* NAVBAR STUFF */
 .header {
@@ -51,18 +55,20 @@ html {
   padding-left: 1em;
 }
 
+/* Main Stuff */
 
 
 
 /* Footer Stuff */
 .footer {
-  align-content: center;
+  align-self: flex-end;
+  bottom: 0;
   display: flex;
   justify-content: center;
   padding: 2em 0;
-  width: 90%;
+  position: absolute;
 }
 .footer-text {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
