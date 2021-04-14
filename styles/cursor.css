@@ -3,26 +3,29 @@
     font-size: 75px;
     margin-top: 25rem;
     color: white;
-    
+    background: tomato;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 }
-
-/* p {
-    
-} */
 
 body{
     margin:0;
     padding:0;
     overflow:hidden;
-    background-color:brown;
+    background-image: url("https://wallpaperaccess.com/full/1321176.jpg");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-family: 'Lobster', cursive;;
   }
 
   div {
     position:absolute;
     transform:translate(-50%,-50%);
-    height:35px;
-    width:35px;
+    height:5px;
+    width:5px;
     border-radius:50%;
-    border: 5px solid black;
+    border: .5px solid black;
     color: white;
   }
