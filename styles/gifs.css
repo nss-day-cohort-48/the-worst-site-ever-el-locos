@@ -1,0 +1,8 @@
+.gif-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gif-img-container {
+    justify-content: space-between;
+}
