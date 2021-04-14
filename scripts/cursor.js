@@ -5,15 +5,15 @@
 // }
 // document.addEventListener('mousemove', onMouseMove);
 
-document.addEventListener('mousemove', function(e) {
-    let body = document.querySelector('body');
-    let circle = document.getElementById('circle');
-    let left = e.offsetX ;
-    let top = e.offsetY;
+// document.addEventListener('mousemove', function(e) {
+//     let body = document.querySelector('body');
+//     let circle = document.getElementById('circle');
+//     let left = e.offsetX ;
+//     let top = e.offsetY;
 
-    circle.style.left = e.pageX+ 'px';
-    circle.style.top = e.pageY+ 'px';
-  });
+//     circle.style.left = e.pageX+ 'px';
+//     circle.style.top = e.pageY+ 'px';
+//   });
 
 // document.getElementById("circle").addEventListener("mouseenter", run);
 // function run() {
