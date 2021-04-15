@@ -1,17 +1,27 @@
+@import url(navbar.css);
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .cursorText {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 75px;
-  margin-top: 25rem;
   color: white;
   background: tomato;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
   align-items: center;
+  /* margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+margin-top: 15rem;
 }
-
 
 body {
   margin: 0;
@@ -26,6 +36,67 @@ body {
 }
 
 .cursorWinnerImage {
-    max-height: 10rem;
-  }
+  max-height: 10rem;
+}
 
+/* NAVBAR STUFF */
+.header {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 2em;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 2em;
+  
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.links {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+  animation: color-change 1s infinite;
+  opacity: .50;
+  flex-wrap: wrap;
+}
+
+.link:hover {
+  color: rebeccapurple;
+  opacity: 10;
+}
+#linkTwo {
+  padding-left: 1em;
+}
+#linkThree {
+  padding-left: 1em;
+}
+
+
+@keyframes color-change {
+  0% { color: red}
+  16.6% { color: orange}
+  33.2% {color: yellow}
+  49.8% { color: green}
+  66.4% {color: blue}
+  83% { color: indigo}
+  99.6% { color: violet}
+}
