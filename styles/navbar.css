@@ -32,7 +32,7 @@
 .link {
   text-decoration: none;
   animation: color-change .1s infinite;
-  opacity: .15;
+  opacity: .4;
   flex-wrap: wrap;
 }
 .link:hover {
