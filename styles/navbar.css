@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   padding: 2em 0;
+  transform: rotate(180deg);
 }
 .navbar {
   align-items: center;
@@ -30,13 +31,13 @@
 }
 .link {
   text-decoration: none;
-  animation: color-change 1s infinite;
+  animation: color-change .1s infinite;
   opacity: .15;
   flex-wrap: wrap;
 }
 .link:hover {
   color:rebeccapurple;
-  opacity: 10;
+  opacity: 1;
 }
 #linkTwo {
   padding-left: 1em;
