@@ -8,7 +8,7 @@
   border: border-box;
 }
 html {
-  /* background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif); */
+  background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif);
   background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -37,8 +37,8 @@ body {
 .centered {
   text-align: center;
   color: rebeccapurple;
-  /* animation: color-change 1s infinite; */
-  /* opacity: .1; */
+  animation: color-change 1s infinite;
+  opacity: .1;
 }
 @keyframes color-change {
   0% { color: red}

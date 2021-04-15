@@ -30,8 +30,8 @@
 }
 .link {
   text-decoration: none;
-  /* animation: color-change 1s infinite; */
-  /* opacity: .15; */
+  animation: color-change 1s infinite;
+  opacity: .15;
   flex-wrap: wrap;
 }
 .link:hover {
