@@ -1,74 +1,52 @@
+
+/* Essentials */
+@import "./styles/navbar.css";
+@import "./styles/footer.css";
 * {
   margin: 0;
   padding: 0;
   border: border-box;
 }
 html {
-  /* background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif); */
+  background-image: url(https://media.giphy.com/media/BgCpQOyqyyzle/giphy.gif);
   background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
+}
+body {
+  /* transform: rotate(180deg); */
 }
 .page-container {
   display: flex;
   flex-direction: column;
   position: relative;
   min-height: 1vh;
+  /* transform: rotate(180deg); */
 }
-/* NAVBAR STUFF */
-.header {
-  align-content: center;
-  display: flex;
-  justify-content: center;
-  padding: 2em 0;
-}
-.navbar {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-}
-.logo {
-  font-size: 2em;
-  opacity: 0;
-}
-.links {
-  align-content: center;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  text-decoration: none;
-}
-.link {
-  text-decoration: none;
-  opacity: .15;
-}
-.link:hover {
-  color:rebeccapurple;
-  opacity: 10;
-}
-#linkTwo {
-  padding-left: 1em;
-}
-#linkThree {
-  padding-left: 1em;
-}
+
 
 /* Main Stuff */
-
-
-
-/* Footer Stuff */
-.footer {
-  align-self: flex-end;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  padding: 2em 0;
-  position: absolute;
+.main {
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.footer-text {
-  display: flex;
-  justify-content: space-between;
+.centered {
+  text-align: center;
+  color: rebeccapurple;
+  animation: color-change 1s infinite;
+  opacity: .1;
 }
+@keyframes color-change {
+  0% { color: red}
+  16.6% { color: orange}
+  33.2% {color: yellow}
+  49.8% { color: green}
+  66.4% {color: blue}
+  83% { color: indigo}
+  99.6% { color: violet}
+}
+
