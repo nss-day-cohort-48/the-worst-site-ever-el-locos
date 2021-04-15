@@ -15,15 +15,11 @@ html {
     background-size: cover; 
 }
 
-body {
-  /* transform: rotate(180deg); */
-}
 .page-container {
   display: flex;
   flex-direction: column;
   position: relative;
   min-height: 1vh;
-  /* transform: rotate(180deg); */
 }
 
 
@@ -38,8 +34,9 @@ body {
 .centered {
   text-align: center;
   color: rebeccapurple;
-  animation: color-change 1s infinite;
+  animation: color-change .5s infinite;
   opacity: .1;
+  transform: rotate(180deg);
 }
 @keyframes color-change {
   0% { color: red}

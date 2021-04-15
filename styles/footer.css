@@ -9,4 +9,5 @@
   position: absolute;
   width: 100%;
   animation: color-change 1s infinite;
+  transform: rotate(180deg);
 }
