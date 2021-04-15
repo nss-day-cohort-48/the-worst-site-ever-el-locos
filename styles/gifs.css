@@ -1,8 +1,51 @@
 
-.gif-img-one {
-    position: relative;
+
+.gif-header {
+    text-align: center;
+    font-size: 10rem;
+    
+}
+body {
+    background-image: url(https://media0.giphy.com/media/3FoCLhuJfNJ8zIukIn/giphy.gif?cid=ecf05e47sadd0zjnjomxtf1futhkciqk6x26baqyw7bzc3j4&rid=giphy.gif&ct=g);
+    background-repeat: repeat;
+    background-size: 1rem;
+    
 }
 
-body {
-    position: relative;
-}
+.header {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+  }
+  .navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .logo {
+    font-size: 2em;
+    opacity: 0;
+  }
+  .links {
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+  }
+  .link {
+    text-decoration: none;
+    opacity: .15;
+  }
+  .link:hover {
+    color:rebeccapurple;
+    opacity: 10;
+  }
+  #linkTwo {
+    padding-left: 1em;
+  }
+  #linkThree {
+    padding-left: 1em;
+  }
