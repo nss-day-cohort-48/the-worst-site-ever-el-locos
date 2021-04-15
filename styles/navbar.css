@@ -1,0 +1,46 @@
+/* NAVBAR STUFF */
+.header {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 2em;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 2em;
+  /* opacity: 0; */
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.links {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.link {
+  text-decoration: none;
+  /* animation: color-change 1s infinite; */
+  /* opacity: .15; */
+  flex-wrap: wrap;
+}
+.link:hover {
+  color:rebeccapurple;
+  opacity: 10;
+}
+#linkTwo {
+  padding-left: 1em;
+}
+#linkThree {
+  padding-left: 1em;
+}
