@@ -3,6 +3,7 @@
     text-align: center;
 }
 
+
 .container{
     flex-direction: row-reverse;
 }
@@ -16,12 +17,16 @@ body{
     background-size: cover; 
 }
 
-.suggestions{
-    flex-flow: row;
-    text-align: left;
-}
 
-.resources{
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 0;
     text-align: right;
-}
-
+    padding: 2em 0;
+    position: absolute;
+    width: 100%;
+    color: white;
+  }
